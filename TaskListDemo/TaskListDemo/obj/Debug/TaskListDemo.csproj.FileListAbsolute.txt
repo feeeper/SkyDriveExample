@@ -1,0 +1,13 @@
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\ApplicationIcon.png
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\Background.png
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\TaskListDemo.dll
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\TaskListDemo.pdb
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\AppManifest.xaml
+D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\TaskListDemo.xap
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\App.g.i.cs
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\MainPage.g.i.cs
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\TaskListDemo.g.resources
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\TaskListDemo.dll
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\TaskListDemo.pdb
+D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\XapCacheFile.xml

@@ -6,6 +6,7 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:sd="clr-namespace:Microsoft.Live.Controls;assembly=Microsoft.Live.Controls"
     mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -23,13 +24,20 @@
     <!--TitlePanel contains the name of the application and page title-->
     <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
       <TextBlock x:Name="ApplicationTitle" Text="TaskListDemo" Style="{StaticResource PhoneTextNormalStyle}"/>
-      <TextBlock x:Name="PageTitle" Text="задачи" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+      <TextBlock x:Name="PageTitle" Text="Tasks" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
     </StackPanel>
 
     <!--ContentPanel - place additional content here-->
     <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-      <StackPanel>
-          <ListBox Name="Tasks" ItemsSource="{Binding TaskList}">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="72"/>
+        <RowDefinition Height="72"/>
+        <RowDefinition Height="72"/>
+        <RowDefinition Height="72"/>
+        <RowDefinition Height="72"/>
+      </Grid.RowDefinitions>    
+      <ListBox Name="Tasks" ItemsSource="{Binding TaskList}" Grid.Row="0">
             <ListBox.ItemTemplate>
               <DataTemplate>
                 <StackPanel>
@@ -38,8 +46,19 @@
               </DataTemplate>
             </ListBox.ItemTemplate>
           </ListBox>
-        <Button Name="NewTask" Click="NewTask_Click" Content="Add new task"/>
-      </StackPanel>
+      <Button Name="NewTask" Click="NewTask_Click" Content="Add new task" Grid.Row="1"/>
+      <Button Name="ClearTasks" Click="ClearTasks_Click" Content="Delete all tasks" Grid.Row="2"/>
+      <Button Name="ToSkyDrive" Click="ToSkyDrive_Click" Content="Send To SkyDrive" Grid.Row="3"/>
+      <Button Name="FromSkyDrive" Click="FromSkyDrive_Click" Content="Get from SkyDrive" Grid.Row="4"/>
+      <sd:SignInButton Name="signInButton" 
+                           Height="72" 
+                 VerticalAlignment="Top"
+                 Branding="Skydrive"
+                 ClientId="000000004410C731"
+                 Content="Button"
+                 Scopes="wl.basic wl.photos wl.skydrive wl.offline_access wl.signin wl.skydrive_update"
+                 SessionChanged="signInButton_SessionChanged"
+                 TextType="SignIn" Grid.Row="5"/>
     </Grid>
   </Grid>
 

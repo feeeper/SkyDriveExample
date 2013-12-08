@@ -1,8 +1,12 @@
-﻿<xapCache source="D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\TaskListDemo.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="28.10.2013 0:53:36">
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="28.10.2013 0:17:22" />
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\Background.png" archivePath="Background.png" lastWriteTime="27.10.2013 23:58:09" />
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="27.10.2013 23:58:09" />
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\obj\Debug\TaskListDemo.dll" archivePath="TaskListDemo.dll" lastWriteTime="28.10.2013 0:53:36" />
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="27.10.2013 23:58:09" />
-  <file source="D:\Projects\TaskListDemo\TaskListDemo\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="28.10.2013 0:17:22" />
+﻿<xapCache source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Bin\Debug\TaskListDemo.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="08.12.2013 20:28:07">
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="08.12.2013 15:02:21" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Background.png" archivePath="Background.png" lastWriteTime="08.12.2013 14:57:59" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="08.12.2013 14:57:59" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\obj\Debug\TaskListDemo.dll" archivePath="TaskListDemo.dll" lastWriteTime="08.12.2013 20:28:06" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.5\Windows Phone 7.1\References\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="14.10.2013 18:15:40" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Live\v5.5\Windows Phone 7.1\References\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="14.10.2013 18:13:06" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="08.12.2013 14:57:59" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="08.12.2013 15:39:27" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="08.12.2013 14:57:59" />
+  <file source="D:\Projects\GitHub\SkyDriveExample\TaskListDemo\TaskListDemo\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="08.12.2013 14:57:59" />
 </xapCache>

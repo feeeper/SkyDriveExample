@@ -110,21 +110,6 @@ namespace TaskListDemo {
       sourceFile.Close();
       fileToSave.Close();
 
-      //IsolatedStorageFile store = IsolatedStorageFile.GetUserStoreForApplication();
-
-      //var fileToSave = new IsolatedStorageFileStream(fileName, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None, store);
-      //var sourceFile = store.OpenFile("\\shared\\transfers\\" + fileName, FileMode.OpenOrCreate);
-
-      //if (sourceFile == null) {
-      //  MessageBox.Show("not found");
-      //}
-      //else {
-      //  fileToSave.CopyTo(sourceFile);
-      //  fileToSave.Flush();
-      //}
-      //sourceFile.Close();
-      //fileToSave.Close();
-
       // вся "магия" здесь :)
       try {
         LiveConnectClient client = new LiveConnectClient(session);
